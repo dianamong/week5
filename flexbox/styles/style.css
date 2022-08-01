@@ -1,0 +1,86 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    height: 15vh;
+    background-color: #74c1ee;
+}
+
+.header h1 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    width: 100vw;
+    min-height: 70vh;
+    font-size: 20px;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #d6cee4;
+    width: 70vw;
+    text-align: center;
+}
+
+.section-general {
+    flex-basis: 100vw;
+}
+
+.section-supplemental {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.section-supplemental-p1,
+.section-supplemental-p2 {
+    background-color: #c58fe9;
+    flex-basis: 25vw;
+    height: 20vh;
+    font-weight: bold;
+}
+
+.section-supplemental-p3 {
+    background-color: #c58fe9;
+    flex-basis: 60vw;
+    height: 20vh;
+    font-weight: bold;
+}
+
+.aside {
+    background-color: #95eed3;
+    width: 30vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    background-color: #74c1ee;
+    min-height: 20vh;
+}
+
+.footer-one,
+.footer-two,
+.footer-three,
+.footer-four {
+    flex-basis: 20%;
+    height: 10vh;
+    background-color: #bee0f3;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
